@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="csshw3.css">
+    <title>GPA Calculator</title>
+</head>
+<body>
+
+    <script defer src="hw3.js"></script>
+    <nav class="navbar">
+        <div class="navbar-title">GPA Calculator</div>
+    </nav>
+
+    <div class="form">
+        <form id="gpaform">
+            <div class="table-header">
+                <div>Course</div>
+                <div>Grade</div>
+                <div>Credits</div>
+            </div>
+            <div id="rows" class="container"></div>
+            <div class="buttons" class="container">
+                <button type="button" id="add-row">Add row</button>
+                <button type="button" id="calculate-gpa">Calculate</button>
+                <button type="reset" id="reset-form">Reset</button>
+            </div>
+        </form>
+        <div id="results">
+            <h1>GPA:</h1>
+            <span id="gpa"></span>
+        </div>
+    </div>
+
+</body>
+</html>
